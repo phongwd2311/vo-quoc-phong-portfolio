@@ -1,0 +1,33 @@
+# Local and generated files.
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+build/
+.vercel/
+
+tmp/
+temp/
+screenshots/
+playwright-report/
+test-results/
+.playwright-mcp/
+/phase4c-*.jpeg
+
+.DS_Store
+Thumbs.db
+
+# Keep internal source material out of the public repository.
+docs/source/*.pdf
+docs/decisions.md
+docs/content-inventory.md
+docs/qa-report.md
+docs/session-handoff.md
+docs/user-provided-facts.md
+/START-CODEX.md
+/.agents/
+
+# The approved public Resume and profile image under assets/ remain tracked.
