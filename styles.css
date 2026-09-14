@@ -11,7 +11,7 @@
   --color-page: #fbfcfe;
   --color-navy: #17315f;
   --color-white: #ffffff;
-  --font-sans: "Heebo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --container: 960px;
   --header-container: 1120px;
   --gutter: clamp(1.125rem, 4vw, 2rem);
@@ -48,6 +48,7 @@ body {
   background: var(--color-page);
   font-family: var(--font-sans);
   font-size: 1rem;
+  font-synthesis: none;
   line-height: 1.55;
   text-rendering: optimizeLegibility;
 }
@@ -338,8 +339,7 @@ h3 {
 }
 
 .hero-career-direction {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   width: fit-content;
   margin-bottom: var(--space-4);
   padding: 0.35rem 0.7rem;
